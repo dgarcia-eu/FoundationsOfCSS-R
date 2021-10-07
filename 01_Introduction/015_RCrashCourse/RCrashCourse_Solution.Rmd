@@ -122,12 +122,6 @@ x
 x/2
 ```
 
-**1.4) Calculate the 10 modulo 7. (Hint: search in Google or Stackoverflow)**
-```{r}
-10%%7
-```
-
-
 ## 2. Control flow
 
 R is a programming language after all, how do we check for conditions or go through iterations?
@@ -141,7 +135,7 @@ if (x>4)
 }  else
 {
   print("four or less")
-}  
+}
 ```
 
 for loops are fixed length iterations:
@@ -166,15 +160,15 @@ while (i<5)
 
 **Note:** control flow is very inefficient in R, we will learn faster methods for large datasets later in the course
 
-Your turn: 
+Your turn:
 
 **2.1) Iterate over the numbers from 1 to 50 and print the ones divisible by 7.**
 ```{r}
 for(i in seq(1,50))
 {
-  if (i %% 7 == 0) 
+  if (i %% 7 == 0)
   {
-    print(i)  
+    print(i)
   }
 }
 ```
@@ -290,7 +284,7 @@ unique(SurveyDF$Gender)
 
 Now we make a better scatter plot with points colored by gender and proper axes labels:
 ```{r}
-plot(SurveyDF$Age, SurveyDF$Height, xlab="Age", 
+plot(SurveyDF$Age, SurveyDF$Height, xlab="Age",
      ylab="Heights (cm)", main="Scatter Plot of Height~Age", pch=19,
      col=c("blue","red")[SurveyDF$Gender])
 legend("bottomright", legend = levels(SurveyDF$Gender),
@@ -333,7 +327,7 @@ df <- read.csv("BMI-steps.csv")
 cor(df$steps, df$bmi)
 cor(df$steps[df$gender=="man"], df$bmi[df$gender=="man"])
 cor(df$steps[df$gender=="woman"], df$bmi[df$gender=="woman"])
-plot(df$steps, df$bmi) 
+plot(df$steps, df$bmi)
 #Data from https://www.biorxiv.org/content/10.1101/2020.07.30.228916v1.full
 ```
 
@@ -403,7 +397,7 @@ for (i in seq(2, nrow(SurveyDF)))
 maleH <- sort(SurveyDF$Height[SurveyDF$Gender=="male"])
 femaleH <- sort(SurveyDF$Height[SurveyDF$Gender=="female"])
 L <- max(length(maleH), length(femaleH))
-plot(femaleH, type="b", col="darkorange", xlim=c(1,L), 
+plot(femaleH, type="b", col="darkorange", xlim=c(1,L),
      ylim=range(c(maleH, femaleH)), cex=2, cex.lab=1.5)
 points(maleH, type="b", col="darkblue", cex=2)
 ```
@@ -420,7 +414,7 @@ vignette("auth", package = "rtweet")
 
 - Now you have learned the very basics of R. Fell free to play with the program a bit more. If you need more information on a function in regards to what it does and what input it takes, simply type *help(functionName)* in the console and you will get a detailed discription. A good resource to learn more about R can be found here:   <http://www.cyclismo.org/tutorial/R/>
 
-- Furthermore a short R reference sheet with some commonly used functions can be found here:  
+- Furthermore a short R reference sheet with some commonly used functions can be found here:
 <https://cran.r-project.org/doc/contrib/Short-refcard.pdf>
 
 - RStudio primers are a great way to learn more interactively: <https://rstudio.cloud/learn/primers>

@@ -12,7 +12,7 @@ R is a free software environment for statistical computing and graphics. It comp
 
 Follow the instructions from  the links provided below to download and install R and RStudio on your computer:
 
-R        <https://www.r-project.org>   
+R        <https://www.r-project.org>
 RStudio  <https://www.rstudio.com>
 R Markdown http://rmarkdown.rstudio.com/
 
@@ -129,7 +129,7 @@ x <- 4
 if (x>4)
 {
   print("larger than four")
-} 
+}
 ```
 
 for loops are fixed length iterations:
@@ -154,7 +154,7 @@ while (i<5)
 
 **Note:** control flow is very inefficient in R, we will learn faster methods for large datasets later in the course
 
-Your turn: 
+Your turn:
 
 **2.1) Iterate over the numbers from 1 to 50 and print the ones lower than 10 or larger than 40.**
 ```{r}
@@ -246,7 +246,7 @@ Your turn:
 
 **4.2) Print the heights of the rows in SurveyDF of gender "female".**
 ```{r}
-SurveyDF$Height[SurveyDF$Gender=="female"]
+#Your code here
 ```
 
 ## 5. Plotting and statistics: How tall are we?
@@ -272,7 +272,7 @@ unique(SurveyDF$Gender)
 
 Now we make a better scatter plot with points colored by gender and proper axes labels:
 ```{r}
-plot(SurveyDF$Age, SurveyDF$Height, xlab="Age", 
+plot(SurveyDF$Age, SurveyDF$Height, xlab="Age",
      ylab="Heights (cm)", main="Scatter Plot of Height~Age", pch=19,
      col=c("blue","red")[SurveyDF$Gender])
 legend("bottomright", legend = levels(SurveyDF$Gender),
@@ -374,7 +374,7 @@ vignette("auth", package = "rtweet")
 
 - Now you have learned the very basics of R. Fell free to play with the program a bit more. If you need more information on a function in regards to what it does and what input it takes, simply type *help(functionName)* in the console and you will get a detailed discription. A good resource to learn more about R can be found here:   <http://www.cyclismo.org/tutorial/R/>
 
-- Furthermore a short R reference sheet with some commonly used functions can be found here:  
+- Furthermore a short R reference sheet with some commonly used functions can be found here:
 <https://cran.r-project.org/doc/contrib/Short-refcard.pdf>
 
 - RStudio primers are a great way to learn more interactively: <https://rstudio.cloud/learn/primers>
