@@ -122,12 +122,6 @@ x
 x/2
 ```
 
-**1.4) Calculate the 10 modulo 7. (Hint: search in Google or Stackoverflow)**
-```{r}
-10%%7
-```
-
-
 ## 2. Control flow
 
 R is a programming language after all, how do we check for conditions or go through iterations?
