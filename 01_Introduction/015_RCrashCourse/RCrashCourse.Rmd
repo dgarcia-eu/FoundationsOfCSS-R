@@ -246,7 +246,7 @@ Your turn:
 
 **4.2) Print the heights of the rows in SurveyDF of gender "female".**
 ```{r}
-SurveyDF$Height[SurveyDF$Gender=="female"]
+#Your code here
 ```
 
 ## 5. Plotting and statistics: How tall are we?
