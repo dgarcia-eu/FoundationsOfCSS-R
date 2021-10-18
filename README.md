@@ -30,15 +30,15 @@ The course is organized in 13 sessions. Each session contains a practical part w
 **14.10.2021, 5pm: [Supplementary lecture at Computer Science Faculty Day](https://csbme.tugraz.at/go/facultyday/) (registration required)**
 
 2. **Search Behavior** (21.10.2021)  
-2.1. [Measuring temporal orientation with Google Trends](https://dgarcia-eu.github.io/FoundationsOfCSS/02_Search/021_TemporalOrientation/TemporalOrientationGtrends.html)     
+2.1. [Measuring temporal orientation with Google Trends](https://dgarcia-eu.github.io/FoundationsOfCSS/02_Search/021_TemporalOrientation/TemporalOrientationGtrends.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/02_Search/021_TemporalOrientation/Slides/TemporalOrientationGtrends_Slides.html)     
 2.2. [Google Trends data in R](https://dgarcia-eu.github.io/FoundationsOfCSS/02_Search/022_gtrendsR/gtrendsR.html)   
 2.3. [Accessing the World Development Indicators from R](https://dgarcia-eu.github.io/FoundationsOfCSS/02_Search/023_WDI/WDI.html)   
-2.4. [Measuring correlation](https://dgarcia-eu.github.io/FoundationsOfCSS/02_Search/024_Correlation/MeasuringCorrelation.html)   
+2.4. [Measuring correlation](https://dgarcia-eu.github.io/FoundationsOfCSS/02_Search/024_Correlation/MeasuringCorrelation.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/02_Search/024_Correlation/Slides/MeasuringCorrelation_Slides.html)   
 - [Tutorial session: R crash course part 2](https://dgarcia-eu.github.io/FoundationsOfCSS/01_Introduction/015_RCrashCourse/RCrashCourse) -- [Tutorial resources](https://downgit.github.io/#/home?url=https://github.com/dgarcia-eu/FoundationsOfCSS/tree/master/01_Introduction/015_RCrashCourse)
 
 3. **Social Trends** (28.10.2021)  
 3.1. Social Trends: The Simmel Effect  
-3.2  Online Social Trends  
+3.2.  Online Social Trends  
 3.3. Old Big Data: Baby name trends  
 3.4. Linear regression  
 - [Tutorial session: Data wrangling with dplyr](https://dgarcia-eu.github.io/FoundationsOfCSS/02_Search/025_dplyrTutorial/dplyr.html) -- [Tutorial resources](https://downgit.github.io/#/home?url=https://github.com/dgarcia-eu/FoundationsOfCSS/tree/master/02_Search/025_dplyrTutorial)  
