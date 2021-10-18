@@ -21,9 +21,9 @@ The course is organized in 13 sessions. Each session contains a practical part w
 
 1. **Introduction to Computational Social Systems**  (7.10.2021)  
 1.1. Course administration and information  
-1.2. [Computational Social Systems](https://dgarcia-eu.github.io/FoundationsOfCSS/01_Introduction/011_ComputationalSocialSystems/ComputationalSocialSystems)  
-1.3. [Social Data Science](https://dgarcia-eu.github.io/FoundationsOfCSS/01_Introduction/012_SocialDataScience/SocialDataScience)    
-1.4. [The parable of Google Flu Trends](https://dgarcia-eu.github.io/FoundationsOfCSS/01_Introduction/014_GoogleFluTrends/GoogleFluTrends)  
+1.2. [Computational Social Systems](https://dgarcia-eu.github.io/FoundationsOfCSS/01_Introduction/011_ComputationalSocialSystems/ComputationalSocialSystems) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/01_Introduction/011_ComputationalSocialSystems/Slides/ComputationalSocialSystems_Slides.html)  
+1.3. [Social Data Science](https://dgarcia-eu.github.io/FoundationsOfCSS/01_Introduction/012_SocialDataScience/SocialDataScience) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/01_Introduction/012_SocialDataScience/Slides/Introduction_Slides.html)    
+1.4. [The parable of Google Flu Trends](https://dgarcia-eu.github.io/FoundationsOfCSS/01_Introduction/014_GoogleFluTrends/GoogleFluTrends) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/01_Introduction/014_GoogleFluTrends/Slides/GoogleFluTrends_Slides.html)  
 - [Tutorial session: R crash course part 1](https://dgarcia-eu.github.io/FoundationsOfCSS/01_Introduction/015_RCrashCourse/RCrashCourse) -- [Tutorial resources](https://downgit.github.io/#/home?url=https://github.com/dgarcia-eu/FoundationsOfCSS/tree/master/01_Introduction/015_RCrashCourse)  
 *(Please install RStudio before the tutorial takes place)*
 

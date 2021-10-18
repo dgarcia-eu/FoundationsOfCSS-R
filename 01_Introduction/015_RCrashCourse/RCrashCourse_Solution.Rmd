@@ -122,12 +122,6 @@ x
 x/2
 ```
 
-**1.4) Calculate the 10 modulo 7. (Hint: search in Google or Stackoverflow)**
-```{r}
-10%%7
-```
-
-
 ## 2. Control flow
 
 R is a programming language after all, how do we check for conditions or go through iterations?
@@ -168,11 +162,11 @@ while (i<5)
 
 Your turn: 
 
-**2.1) Iterate over the numbers from 1 to 50 and print the ones divisible by 7.**
+**2.1) Iterate over the numbers from 1 to 50 and print the ones lower than 10 or larger than 40.**
 ```{r}
 for(i in seq(1,50))
 {
-  if (i %% 7 == 0) 
+  if ((i < 10) | (i > 40))
   {
     print(i)  
   }
