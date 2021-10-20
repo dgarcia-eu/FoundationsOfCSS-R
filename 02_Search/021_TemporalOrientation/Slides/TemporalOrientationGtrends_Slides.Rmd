@@ -54,6 +54,26 @@ layout: true
 
 ---
 
+# What comes next
+
+- **21.10: Lecture - Search Behavior** 
+- **21.10: Exercise - R Crash course tutorial part two**
+- **26.10: No exercise (holiday)**
+  - **Replacement: 27.10, 13:00, online (Webex)**
+  - Repetition of R crash course tutorial part two
+
+
+- **28.10: Lecture - Social Trends**
+- **28.10: Tutorial: data wrangling**
+- **2.11: No exercise (holiday)**
+  - **Replacement: 3.11, 13:00, online (Webex)**
+  - Repetition of data wrangling tutorial
+
+
+**28.10 - 4.11 Exercise week: Future Orientation with Google trends**
+
+---
+
 # Time, culture, and the economy
 
 What is the relationship between culture and the economy?  
