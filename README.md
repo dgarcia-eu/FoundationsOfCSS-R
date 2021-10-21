@@ -32,7 +32,7 @@ The course is organized in 13 sessions. Each session contains a practical part w
 2. **Search Behavior** (21.10.2021)  
 2.1. [Measuring temporal orientation with Google Trends](https://dgarcia-eu.github.io/FoundationsOfCSS/02_Search/021_TemporalOrientation/TemporalOrientationGtrends.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/02_Search/021_TemporalOrientation/Slides/TemporalOrientationGtrends_Slides.html)     
 2.2. [Google Trends data](https://dgarcia-eu.github.io/FoundationsOfCSS/02_Search/022_gtrendsR/gtrendsR.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/02_Search/022_gtrendsR/Slides/GTrendsR_Slides.html)    
-2.3. [Accessing the World Development Indicators from R](https://dgarcia-eu.github.io/FoundationsOfCSS/02_Search/023_WDI/WDI.html)   
+2.3. [Accessing the World Development Indicators from R](https://dgarcia-eu.github.io/FoundationsOfCSS/02_Search/023_WDI/WDI.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/02_Search/023_WDI/Slides/WDI_Slides.html)     
 2.4. [Measuring correlation](https://dgarcia-eu.github.io/FoundationsOfCSS/02_Search/024_Correlation/MeasuringCorrelation.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/02_Search/024_Correlation/Slides/MeasuringCorrelation_Slides.html)   
 - [Tutorial session: R crash course part 2](https://dgarcia-eu.github.io/FoundationsOfCSS/01_Introduction/015_RCrashCourse/RCrashCourse) -- [Tutorial resources](https://downgit.github.io/#/home?url=https://github.com/dgarcia-eu/FoundationsOfCSS/tree/master/01_Introduction/015_RCrashCourse)
 
