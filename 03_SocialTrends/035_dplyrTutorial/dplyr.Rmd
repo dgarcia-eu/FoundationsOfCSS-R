@@ -6,8 +6,6 @@ output: html_document
 
 Welcome to the dplyr tutorial! This will be a quick introduction into one of the most useful tools to handle large datasets by producing code that is easy to read.
 
-You can find this script to run in Rstudio cloud: <https://rstudio.cloud/project/892606>
-
 # Introduction to dplyr
 
 dplyr  <https://https://dplyr.tidyverse.org/> is a package for data manipulation, which is the process of  re-sorting, rearranging, and moving data, without fundamentally changing it. It provides a way to make your data more readable and organized in an efficient way.
