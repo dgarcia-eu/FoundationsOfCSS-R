@@ -517,7 +517,7 @@ After fitting the model, you should ask yourself how good are the predictions of
 ## F-statistic: 44.59 on 1 and 56 DF,  p-value: 1.18e-08</code></pre>
 <pre class="r"><code>summary(model)$r.squared</code></pre>
 <pre><code>## [1] 0.4432583</code></pre>
-<p>The table shows you the estimates of the coefficients, in this case there is an intercept and a coefficient for FOI. The last column of the table shows what is called a p-value, if you want to learn more about that, check the <a href="https://dgarcia-eu.github.io/SocialDataScience/5_SocialNetworkPhenomena/056_PermutationTests/PermutationTests">permutation tests tutorial</a>. The <span class="math inline">\(R^2\)</span> of 0.44 we get means that we can explain 44% of the variance of the GPD per capita with the FOI values of the countries alone.</p>
+<p>The table shows you the estimates of the coefficients, in this case there is an intercept and a coefficient for FOI. The last column of the table shows what is called a p-value, we will learn more about how that is calculated and what it means later in the course. The <span class="math inline">\(R^2\)</span> of 0.44 we get means that we can explain 44% of the variance of the GPD per capita with the FOI values of the countries alone.</p>
 <p>The coefficient of determination is called <span class="math inline">\(R^2\)</span> because it is a way to measure the correlation coefficient between the true values of the dependent variable <span class="math inline">\(Y\)</span> and the estimated ones <span class="math inline">\(\hat Y\)</span>. You can verify this in R:</p>
 <pre class="r"><code>summary(model)$r.squared</code></pre>
 <pre><code>## [1] 0.4432583</code></pre>

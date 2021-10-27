@@ -120,7 +120,7 @@ summary(model)
 summary(model)$r.squared
 ```
 
-The table shows you the estimates of the coefficients, in this case there is an intercept and a coefficient for FOI. The last column of the table shows what is called a p-value, if you want to learn more about that, check the [permutation tests tutorial](https://dgarcia-eu.github.io/SocialDataScience/5_SocialNetworkPhenomena/056_PermutationTests/PermutationTests). The $R^2$ of 0.44 we get means that we can explain 44\% of the variance of the GPD per capita with the FOI values of the countries alone.
+The table shows you the estimates of the coefficients, in this case there is an intercept and a coefficient for FOI. The last column of the table shows what is called a p-value, we will learn more about how that is calculated and what it means later in the course. The $R^2$ of 0.44 we get means that we can explain 44\% of the variance of the GPD per capita with the FOI values of the countries alone.
 
 The coefficient of determination is called $R^2$ because it is a way to measure the correlation coefficient between the true values of the dependent variable $Y$ and the estimated ones $\hat Y$. You can verify this in R:
 ```{r }
