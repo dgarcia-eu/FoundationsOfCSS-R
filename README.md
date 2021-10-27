@@ -40,8 +40,8 @@ The course is organized in 13 sessions. Each session contains a practical part w
 3.1. [The Simmel Effect and Online Social Trends](https://dgarcia-eu.github.io/FoundationsOfCSS/03_SocialTrends/031_SimmelEffect/SimmelEffect.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/03_SocialTrends/031_SimmelEffect/Slides/SimmelEffect_Slides.html)  
 3.2. [Old Big Data: Baby name trends](https://dgarcia-eu.github.io/FoundationsOfCSS/03_SocialTrends/033_BabyNameTrends/BabyNameTrends.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/03_SocialTrends/033_BabyNameTrends/Slides/BabyNameTrends_Slides.html)  
 3.3. [Linear regression](https://dgarcia-eu.github.io/FoundationsOfCSS/03_SocialTrends/034_LinearRegression/LinearRegression.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/03_SocialTrends/034_LinearRegression/Slides/LinearRegression_Slides.html)  
-- [Tutorial session: Data wrangling with dplyr](https://dgarcia-eu.github.io/FoundationsOfCSS/02_Search/025_dplyrTutorial/dplyr.html) -- [Tutorial resources](https://downgit.github.io/#/home?url=https://github.com/dgarcia-eu/FoundationsOfCSS/tree/master/02_Search/025_dplyrTutorial)  
-- [Week exercise: Future orientation and economic development](https://dgarcia-eu.github.io/FoundationsOfCSS/02_Search/026_FOIExercise/GDP_FOI.html) -- [Exercise resources](https://downgit.github.io/#/home?url=https://github.com/dgarcia-eu/FoundationsOfCSS/tree/master/02_Search/026_FOIExercise) 
+- [Tutorial session: Data wrangling with dplyr](https://dgarcia-eu.github.io/FoundationsOfCSS/03_SocialTrends/035_dplyrTutorial/dplyr.html) -- [Tutorial resources](https://downgit.github.io/#/home?url=https://github.com/dgarcia-eu/FoundationsOfCSS/tree/master/03_SocialTrends/035_dplyrTutorial)  
+- [Week exercise: Future orientation and economic development](https://dgarcia-eu.github.io/FoundationsOfCSS/03_SocialTrends/036_FOIExercise/GDP_FOI.html) -- [Exercise resources](https://downgit.github.io/#/home?url=https://github.com/dgarcia-eu/FoundationsOfCSS/tree/master/03_SocialTrends/036_FOIExercise) 
 
 4. **Social Impact** (4.11.2021)  
 4.1. Social Impact Theory  
