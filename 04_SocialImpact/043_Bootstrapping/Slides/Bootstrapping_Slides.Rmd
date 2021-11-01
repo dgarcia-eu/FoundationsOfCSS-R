@@ -1,0 +1,144 @@
+---
+title: "Bootstrapping"
+author: "David Garcia <br><br> *TU Graz*"
+date: "Foundations of Computational Social Systems"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs 
+    css: [xaringan-themer.css, "libs/footer.css"]
+    nature:
+      beforeInit: ["libs/perc.js"]
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+---
+
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+#This block contains the theme configuration for the CSS lab slides style
+library(xaringanthemer)
+library(showtext)
+style_mono_accent(
+  base_color = "#5c5c5c",
+  text_font_size = "1.5rem",
+  header_font_google = google_font("Arial"),
+  text_font_google   = google_font("Arial", "300", "300i"),
+  code_font_google   = google_font("Fira Mono")
+)
+```
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+layout: true
+
+<div class="my-footer"><span>David Garcia - Foundations of Computational Social Systems</span></div> 
+
+---
+
+# Assessing uncertainty via bootstrapping
+
+.center[<img src="../Bootstrapping.png" width="600px"/>  ]
+
+Bootstrap simulates the sampling of our original data.  
+To bootstrap, we resample from our sample by generating new samples of the same size as our original sample  **with replacement**
+---
+
+# R example 1: the mean of a variable
+
+First, we load the data and measure the mean over our sample:
+```{r }
+# Height Data from National Health Interview Survey (NHIS) 2007
+DataFrame <- read.csv("../NHIS2007.csv")
+ObservedHeights <- DataFrame$height
+mean(ObservedHeights)
+```
+
+Now we resample once with replacement and compute the mean over the resulting bootstrap sample:
+```{r }
+BootSample <- sample(ObservedHeights, replace = T)
+mean(BootSample)
+```
+
+---
+
+# Running the resampling 
+
+Now we can repeat the boostrap sample and measurement a lot of times, here we do it 10000 with a loop, saving the results in a vector:
+```{r }
+# obtaining M bootstrap samples and calculate mean value of each bootstrap sample
+M <- 10000
+r.mean <- numeric(M)
+for(i in 1:M)
+{
+  BootSample <- sample(ObservedHeights, replace = T)
+  r.mean[i] <- mean(BootSample)
+}
+
+median(r.mean) # median of the bootstrap samples
+```
+
+---
+
+# Uncertainty in the measure
+
+```{r fig.height=4, fig.align='center'}
+hist(r.mean) # plot histogram of the measured means over the boostrap samples
+quantile(r.mean, probs=c(0.025, 0.975)) # 95% Confidence Interval
+```
+
+---
+
+# Faster bootstrapping with boot()
+
+Defining a function in R with the steps to do for each sample:
+
+```{r }
+library(boot)
+ReturnMean <- function(datav, sampleindices) 
+{
+  d <- datav[sampleindices] # we will use this for bootstrapping
+  return( mean(d) )
+}
+```
+
+Now you can use the boot() function. It takes the full dataset, the function we coded above, and the number of samples we want to make: 
+
+```{r }
+## Bootstrapping with 10000 replications
+results <- boot(data=as.vector(ObservedHeights), statistic=ReturnMean, R=10000)
+```
+
+---
+
+# boot() results
+
+Now you have the results of the measurement over each bootstrap sample in the $t$ field of the result. Here's the histogram:
+
+```{r fig.height=4.5, fig.align='center'}
+hist(results$t) # plot histogram of the measured means over the boostrap samples
+```
+
+---
+
+# Summary of this session
+
+- **Social Impact Theory**
+  - Quantitative theory of behavior changes because of others
+  - Effects of number of sources, immediacy, and strength
+  - Effect of one source: division of impact
+  
+
+- **Online Social Influence**
+  - Immediacy effect and division of impact are visible
+  - Psychosocial law difference: information overload
+  - Online information does not spread like a virus
+  
+  
+- **Bootstrapping**
+  - How to quantify uncertainty of a measure?
+  - Bootstrapping as simulating the sampling process
+  - boot() to speed up
+

@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Bootstrapping</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="David Garcia    TU Graz" />
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+    <link rel="stylesheet" href="libs/footer.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Bootstrapping
+### David Garcia <br><br> <em>TU Graz</em>
+### Foundations of Computational Social Systems
+
+---
+
+
+
+
+
+
+
+layout: true
+
+&lt;div class="my-footer"&gt;&lt;span&gt;David Garcia - Foundations of Computational Social Systems&lt;/span&gt;&lt;/div&gt; 
+
+---
+
+# Assessing uncertainty via bootstrapping
+
+.center[&lt;img src="../Bootstrapping.png" width="600px"/&gt;  ]
+
+Bootstrap simulates the sampling of our original data.  
+To bootstrap, we resample from our sample by generating new samples of the same size as our original sample  **with replacement**
+---
+
+# R example 1: the mean of a variable
+
+First, we load the data and measure the mean over our sample:
+
+```r
+# Height Data from National Health Interview Survey (NHIS) 2007
+DataFrame &lt;- read.csv("../NHIS2007.csv")
+ObservedHeights &lt;- DataFrame$height
+mean(ObservedHeights)
+```
+
+```
+## [1] 69.57827
+```
+
+Now we resample once with replacement and compute the mean over the resulting bootstrap sample:
+
+```r
+BootSample &lt;- sample(ObservedHeights, replace = T)
+mean(BootSample)
+```
+
+```
+## [1] 69.52706
+```
+
+---
+
+# Running the resampling 
+
+Now we can repeat the boostrap sample and measurement a lot of times, here we do it 10000 with a loop, saving the results in a vector:
+
+```r
+# obtaining M bootstrap samples and calculate mean value of each bootstrap sample
+M &lt;- 10000
+r.mean &lt;- numeric(M)
+for(i in 1:M)
+{
+  BootSample &lt;- sample(ObservedHeights, replace = T)
+  r.mean[i] &lt;- mean(BootSample)
+}
+
+median(r.mean) # median of the bootstrap samples
+```
+
+```
+## [1] 69.57638
+```
+
+---
+
+# Uncertainty in the measure
+
+
+```r
+hist(r.mean) # plot histogram of the measured means over the boostrap samples
+```
+
+&lt;img src="Bootstrapping_Slides_files/figure-html/unnamed-chunk-4-1.png" style="display: block; margin: auto;" /&gt;
+
+```r
+quantile(r.mean, probs=c(0.025, 0.975)) # 95% Confidence Interval
+```
+
+```
+##     2.5%    97.5% 
+## 69.31221 69.84577
+```
+
+---
+
+# Faster bootstrapping with boot()
+
+Defining a function in R with the steps to do for each sample:
+
+
+```r
+library(boot)
+ReturnMean &lt;- function(datav, sampleindices) 
+{
+  d &lt;- datav[sampleindices] # we will use this for bootstrapping
+  return( mean(d) )
+}
+```
+
+Now you can use the boot() function. It takes the full dataset, the function we coded above, and the number of samples we want to make: 
+
+
+```r
+## Bootstrapping with 10000 replications
+results &lt;- boot(data=as.vector(ObservedHeights), statistic=ReturnMean, R=10000)
+```
+
+---
+
+# boot() results
+
+Now you have the results of the measurement over each bootstrap sample in the `\(t\)` field of the result. Here's the histogram:
+
+
+```r
+hist(results$t) # plot histogram of the measured means over the boostrap samples
+```
+
+&lt;img src="Bootstrapping_Slides_files/figure-html/unnamed-chunk-7-1.png" style="display: block; margin: auto;" /&gt;
+
+---
+
+# Summary of this session
+
+- **Social Impact Theory**
+  - Quantitative theory of behavior changes because of others
+  - Effects of number of sources, immediacy, and strength
+  - Effect of one source: division of impact
+  
+
+- **Online Social Influence**
+  - Immediacy effect and division of impact are visible
+  - Psychosocial law difference: information overload
+  - Online information does not spread like a virus
+  
+  
+- **Bootstrapping**
+  - How to quantify uncertainty of a measure?
+  - Bootstrapping as simulating the sampling process
+  - boot() to speed up
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script src="libs/perc.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"ratio": "16:9"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
