@@ -1,0 +1,121 @@
+---
+title: "The Twitter API in R"
+author: "Dr. David Garcia"
+output: html_document
+---
+
+In this exercise we will learn how to start collecting data from Twitter users. You will need a Twitter account to do this exercise.
+
+## Tasks:
+
+1. Connecting to Twitter with the rtweet package
+
+2. Construct the timeline of a Twitter user
+
+3. Get the users of a Twitter list
+
+4. Study the numbers of followers in the list
+
+# 1. Connecting to Twitter with the rtweet package
+
+Before starting, install the **rtweet** package. Also remember to properly set your working directory under "Session" -> "Set Working Directory" ->"To Source File Location"
+```{r installrtweet, eval=FALSE}
+install.packages("rtweet")
+```
+
+Now we will load the rtweet package:
+```{r rtweet}
+library(rtweet)
+```
+
+You can connect to the Twitter API in two ways. One is just to continue with these exercises, when you run the next line of code in interactive mode, your browser will prompt to ask you to give permissions to the rstats2twitter. Once you give it permissions, you will be able to access the Twitter API. The second way is getting a developer account and making an app. It is more complicated but better if you do a longer project with this API. Check the [rtweet tutorial](https://github.com/dgarcia-eu/SocialDataScience/blob/master/027_rtweet/rtweet.Rmd) for more details.
+
+After that you will be able to access the Twitter API from R. For example, to get some random recent tweets:
+
+```{r test0, message=F, warning=F}
+library(dplyr)
+tweets <- stream_tweets(timeout=1)
+glimpse(tweets)
+```
+The glimpse() function of dplyr helps us to see a bit better the returning data because it has too many columns to be readable otherwise.
+
+# 2. Construct the timeline of a Twitter user
+
+We can get basic information on the Twitter account of the New York Times. Check the help for the function lookup_users() and use it here for the "nytimes" account:
+```{r test1, message=F, warning=F}
+glimpse(lookup_users(users = "nytimes"))
+```
+
+You can also get the last ten tweets posted by the New York Times account with the get_timeline() function:
+```{r test2}
+glimpse(get_timeline(user="nytimes", n=10))
+```
+
+Now try yourself, look for a public account on Twitter and get its profile information with lookup_users and its latest 10 tweets with get_timeline. 
+
+```{r }
+#Your Code Here
+```
+
+Compare the results with what you see on Twitter. Can you see the same content in R as on Twitter?
+
+# 3. Get the users of a Twitter list
+
+Here we are going to download some basic information of the Twitter accounts of the current members of the US congress: https://twitter.com/i/lists/34179516/members
+
+Check the lists_members function and download the profile information of the members of that list with the list_members() function:
+```{r userlist}
+# Your Code Here
+users <- lists_members(list_id = 34179516)
+head(users)
+```
+
+Calculate the number of users in the list. Does it look like each congress member has an account?
+```{r}
+# Your Code Here
+nrow(users)
+```
+
+Now calculate the number of users in the list that don't have their account protected:
+```{r}
+# Your Code Here
+sum(!users$protected)
+```
+
+#4. Study the numbers of followers in the list
+
+Inspect the data frame you got as a result and identify the column with the number of followers. Save the values to a vector and plot its histogram:
+
+```{r}
+# Your Code Here
+followings <- users$followers_count
+hist(followings)
+```
+
+The result should be a very skewed distribution, with lots of low values and some extremely high. To see better the distribution at lower values, plot the histogram but of the logarithm of the number of followers:
+
+```{r}
+# Your Code Here
+hist(log(followings))
+```
+
+Now find the maximum number of followers and the name of the account. Is that who you expected?
+
+```{r}
+# Your Code Here
+max(followings)
+users$name[followings == max(followings)]
+```
+
+
+# Conclusions
+
+1. Have you been able to connect to Twitter from R? Does your account work?
+
+2. Did you receive the profile information of a user? 
+
+3. How many tweets did you get from the timeline? Can you see what data do you get for a tweet?
+
+4. Can you get the users of a Twitter list?
+
+5. Did you get the number of followers? Who is the most followed US congress member? Does that tell you something about Twitter?
