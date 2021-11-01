@@ -44,10 +44,11 @@ The course is organized in 13 sessions. Each session contains a practical part w
 - [Week exercise: Future orientation and economic development](https://dgarcia-eu.github.io/FoundationsOfCSS/03_SocialTrends/036_FOIExercise/GDP_FOI.html) -- [Exercise resources](https://downgit.github.io/#/home?url=https://github.com/dgarcia-eu/FoundationsOfCSS/tree/master/03_SocialTrends/036_FOIExercise) 
 
 4. **Social Impact** (4.11.2021)  
-4.1. Social Impact Theory  
-4.2. Online Social Influence  
-4.3. Bootstrapping  
-- Week exercise: The Twitter API in R  
+4.1. [Social Impact Theory](https://dgarcia-eu.github.io/FoundationsOfCSS/04_SocialImpact/041_SocialImpactTheory/SIT.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/04_SocialImpact/041_SocialImpactTheory/Slides/SIT_Slides.html)   
+4.2. [Online Social Influence](https://dgarcia-eu.github.io/FoundationsOfCSS/04_SocialImpact/042_OnlineInfluence/OnlineInfluence.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/04_SocialImpact/042_OnlineInfluence/Slides/OnlineInfluence_Slides.html)  
+4.3. [Bootstrapping](https://dgarcia-eu.github.io/FoundationsOfCSS/04_SocialImpact/043_Bootstrapping/Bootstrapping.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/04_SocialImpact/043_Bootstrapping/Slides/Bootstrapping_Slides.html)  
+- [Week exercise: The Twitter API in R](https://github.com/dgarcia-eu/FoundationsOfCSS/tree/master/04_SocialImpact/044_TwitterAPIExercise) -- [Exercise resources](https://downgit.github.io/#/home?url=https://github.com/dgarcia-eu/FoundationsOfCSS/tree/master/04_SocialImpact/044_TwitterAPIExercise)   
+
 
 5. **Social Media Text Analysis** (11.11.2021)  
 5.1. Measuring emotions  
