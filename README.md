@@ -43,48 +43,43 @@ The course is organized in 13 sessions. Each session contains a practical part w
 - [Tutorial session: Data wrangling with dplyr](https://dgarcia-eu.github.io/FoundationsOfCSS/03_SocialTrends/035_dplyrTutorial/dplyr.html) -- [Tutorial resources](https://downgit.github.io/#/home?url=https://github.com/dgarcia-eu/FoundationsOfCSS/tree/master/03_SocialTrends/035_dplyrTutorial)  
 - [Week exercise: Future orientation and economic development](https://dgarcia-eu.github.io/FoundationsOfCSS/03_SocialTrends/036_FOIExercise/GDP_FOI.html) -- [Exercise resources](https://downgit.github.io/#/home?url=https://github.com/dgarcia-eu/FoundationsOfCSS/tree/master/03_SocialTrends/036_FOIExercise) 
 
-4. **Social Impact** (4.11.2021)  
+(4.11.2021: No class due to illness)
+
+4. **Social Impact** (11.11.2021)  
 4.1. [Social Impact Theory](https://dgarcia-eu.github.io/FoundationsOfCSS/04_SocialImpact/041_SocialImpactTheory/SIT.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/04_SocialImpact/041_SocialImpactTheory/Slides/SIT_Slides.html)   
 4.2. [Online Social Influence](https://dgarcia-eu.github.io/FoundationsOfCSS/04_SocialImpact/042_OnlineInfluence/OnlineInfluence.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/04_SocialImpact/042_OnlineInfluence/Slides/OnlineInfluence_Slides.html)  
 4.3. [Bootstrapping](https://dgarcia-eu.github.io/FoundationsOfCSS/04_SocialImpact/043_Bootstrapping/Bootstrapping.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/04_SocialImpact/043_Bootstrapping/Slides/Bootstrapping_Slides.html)  
-- [Week exercise: The Twitter API in R](https://github.com/dgarcia-eu/FoundationsOfCSS/tree/master/04_SocialImpact/044_TwitterAPIExercise) -- [Exercise resources](https://downgit.github.io/#/home?url=https://github.com/dgarcia-eu/FoundationsOfCSS/tree/master/04_SocialImpact/044_TwitterAPIExercise)   
+- [Week exercise: The Twitter API in R](https://dgarcia-eu.github.io/FoundationsOfCSS/04_SocialImpact/044_TwitterAPIExercise/TwitterAPI.html) -- [Exercise resources](https://downgit.github.io/#/home?url=https://github.com/dgarcia-eu/FoundationsOfCSS/tree/master/04_SocialImpact/044_TwitterAPIExercise)   
 
-
-5. **Social Media Text Analysis** (11.11.2021)  
+5. **Social Media Text Analysis** (18.11.2021)  
 5.1. Measuring emotions  
 5.2. Unsupervised sentiment analysis  
 5.3. Emotions in pagers after 9/11  
 - Week exercise: Division of impact on Twitter
 
-6. **Supervised Sentiment Analysis** (18.11.2021)  
+6. **Supervised Sentiment Analysis** (25.11.2021)  
 6.1. Evaluating sentiment analysis  
 6.2. Supervised sentiment analysis  
 6.3. Sentiment in social media  
 - Week exercise: Running unsupervised sentiment analysis in R
 
-7. **Social network analysis** (25.11.2021)  
+7. **Social network analysis** (2.12.2021)  
 7.1. Introduction to social networks  
 7.2. The Friendship paradox  
 7.3. Social media data bias  
 - Week exercise: Evaluating sentiment analysis methods
 
-8. **Centrality in social networks** (2.12.2021)  
+8. **Centrality and social resilience** (9.12.2021)  
 8.1. Centrality and importance  
-8.2. Limits to degree: Dunbar's number  
-8.3. Twitter network data  
-- Week exercise: Handling network data in R
-
-9. **Social resilience of online communities** (9.12.2021)  
-9.1. The death of social networks  
 9.2. Social resilience  
 9.3. Coreness centrality  
-- Week exercise: Swiss politician data on Twitter  
+- Week exercise: Handling network data in R
 
 10. **Online social network structures** (16.12.2021)  
 10.1. Structural holes and communities  
 10.2. Assortativity  
 10.3. Permutation tests   
-- Week exercise: Twitter network analysis  
+- Week exercise: Swiss politician data on Twitter  
 
 11. **Societal issues**  (13.1.2022)  
 11.1 Privacy in the digital society  
@@ -108,4 +103,4 @@ The course is organized in 13 sessions. Each session contains a practical part w
 
 ## Course grading
 
-The assessment for the course is based on the final group research project (max. 4 students). The project grade is a combination of the presentation (50%) and the written report on the project (50%). Extra points (max 20%)  can be achieved by delivering two optional exercise solutions: "Division of impact on Twitter" (deadline 17.11.2021) and "Assortativity among Swiss politicians on Twitter" (deadline 12.1.2022).
+The assessment for the course is based on the final group research project (max. 4 students). The project grade is a combination of the presentation (50%) and the written report on the project (50%). Extra points (max 20%)  can be achieved by delivering two optional exercise solutions: "Division of impact on Twitter" (**new deadline: 24.11.2021**) and "Assortativity among Swiss politicians on Twitter" (deadline 12.1.2022).
