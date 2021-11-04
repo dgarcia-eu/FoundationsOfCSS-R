@@ -50,6 +50,7 @@ The course is organized in 13 sessions. Each session contains a practical part w
 4.2. [Online Social Influence](https://dgarcia-eu.github.io/FoundationsOfCSS/04_SocialImpact/042_OnlineInfluence/OnlineInfluence.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/04_SocialImpact/042_OnlineInfluence/Slides/OnlineInfluence_Slides.html)  
 4.3. [Bootstrapping](https://dgarcia-eu.github.io/FoundationsOfCSS/04_SocialImpact/043_Bootstrapping/Bootstrapping.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/04_SocialImpact/043_Bootstrapping/Slides/Bootstrapping_Slides.html)  
 - [Week exercise: The Twitter API in R](https://dgarcia-eu.github.io/FoundationsOfCSS/04_SocialImpact/044_TwitterAPIExercise/TwitterAPI.html) -- [Exercise resources](https://downgit.github.io/#/home?url=https://github.com/dgarcia-eu/FoundationsOfCSS/tree/master/04_SocialImpact/044_TwitterAPIExercise)   
+(For guidance, you can check the [rtweet tutorial](https://dgarcia-eu.github.io/FoundationsOfCSS/04_SocialImpact/046_rtweet/rtweet.html))
 
 5. **Social Media Text Analysis** (18.11.2021)  
 5.1. [Measuring emotions](https://dgarcia-eu.github.io/FoundationsOfCSS/05_TextAnalysis/051_MeasuringEmotions/Emotions.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/05_TextAnalysis/051_MeasuringEmotions/Slides/Emotions_Slides.html)  
