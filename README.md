@@ -91,7 +91,7 @@ The course is organized in 13 sessions. Each session contains a practical part w
 
 12. **Ethical and scientific issues** (20.1.2022)  
 12.1 The ethics of social media research  
-12.2 Representation in digital traces 
+12.2 Representation in digital traces  
 12.3 Measurement issues  
 - Project feedback
 
