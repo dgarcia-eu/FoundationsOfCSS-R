@@ -52,9 +52,9 @@ The course is organized in 13 sessions. Each session contains a practical part w
 - [Week exercise: The Twitter API in R](https://dgarcia-eu.github.io/FoundationsOfCSS/04_SocialImpact/044_TwitterAPIExercise/TwitterAPI.html) -- [Exercise resources](https://downgit.github.io/#/home?url=https://github.com/dgarcia-eu/FoundationsOfCSS/tree/master/04_SocialImpact/044_TwitterAPIExercise)   
 
 5. **Social Media Text Analysis** (18.11.2021)  
-5.1. Measuring emotions  
-5.2. Unsupervised sentiment analysis  
-5.3. Emotions in pagers after 9/11  
+5.1. [Measuring emotions](https://dgarcia-eu.github.io/FoundationsOfCSS/05_TextAnalysis/051_MeasuringEmotions/Emotions.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/05_TextAnalysis/051_MeasuringEmotions/Slides/Emotions_Slides.html)  
+5.2. [Unsupervised sentiment analysis](https://dgarcia-eu.github.io/FoundationsOfCSS/05_TextAnalysis/052_UnsupervisedSentimentAnalysis/UnsupervisedSentimentAnalysis.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/05_TextAnalysis/052_UnsupervisedSentimentAnalysis/Slides/UnsupervisedSentimentAnalysis_Slides.html)    
+5.3. [Emotions in pagers after 9/11](https://dgarcia-eu.github.io/FoundationsOfCSS/05_TextAnalysis/053_PagerEmotions/PagerEmotions.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/05_TextAnalysis/053_PagerEmotions/Slides/PagerEmotions_Slides.html)    
 - Week exercise: Division of impact on Twitter
 
 6. **Supervised Sentiment Analysis** (25.11.2021)  
