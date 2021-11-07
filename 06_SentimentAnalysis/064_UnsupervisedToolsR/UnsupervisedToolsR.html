@@ -416,10 +416,10 @@ summary {
 </div>
 
 
-<p>The R community has developed a lot of packages to run off-the-shelf unsupervised sentiment analysis methods, also called dictionary methods. Once a method is published for another language (e.g. Python), it is just a matter of time that an R developer does the R version of the package. Furthermore, there are useful packages to access dictionaries and other useful resources directly from R. In this tutorial, you will see some examples of how to use these resources. You can find the sources to run this yourself in the associated <a href>Github repostory</a>.</p>
+<p>The R community has developed a lot of packages to run off-the-shelf unsupervised sentiment analysis methods, also called dictionary methods. Once a method is published for another language (e.g. Python), it is just a matter of time that an R developer does the R version of the package. Furthermore, there are useful packages to access dictionaries and other useful resources directly from R. In this tutorial, you will see some examples of how to use these resources. You can find the sources to run this yourself in the associated <a href="https://github.com/dgarcia-eu/FoundationsOfCSS/tree/master/06_SentimentAnalysis/064_UnsupervisedToolsR">Github repostory</a>.</p>
 <div id="vader" class="section level3">
 <h3>VADER</h3>
-<p>As we saw in the <a href>unsupervised sentiment analysis</a> topic, <a href="https://github.com/cjhutto/vaderSentiment">VADER</a> is one of the best unsupervised methods to analyze social media text, in particular Twitter. A recently developed R package makes it very easy to run VADER from R. To install and load the package, you just need to do as with any other R package:</p>
+<p>As we saw in the <a href="https://dgarcia-eu.github.io/FoundationsOfCSS/05_TextAnalysis/052_UnsupervisedSentimentAnalysis/UnsupervisedSentimentAnalysis.html">unsupervised sentiment analysis</a> topic, <a href="https://github.com/cjhutto/vaderSentiment">VADER</a> is one of the best unsupervised methods to analyze social media text, in particular Twitter. A recently developed R package makes it very easy to run VADER from R. To install and load the package, you just need to do as with any other R package:</p>
 <pre class="r"><code>install.packages(&quot;vader&quot;)</code></pre>
 <pre class="r"><code>library(vader)</code></pre>
 <p>The vader package includes a function called get_vader() that will run the VADER method over a text you give it:</p>
@@ -741,7 +741,7 @@ inner_join(uhcount,charcount) %&gt;% filter(n&gt;5000) %&gt;% mutate(ratioUh = n
 ##  9 abandonment anger    
 ## 10 abandonment fear     
 ## # … with 13,891 more rows</code></pre>
-<p>As you see, AFINN has a numerical score per word, bing has words in classes of positivity and negativity, and the NRC lexicon maps words to emotions (these are emotions from Plutchik’s wheel, you can learn more about it in the <a href>measuring emotions topic</a>).</p>
+<p>As you see, AFINN has a numerical score per word, bing has words in classes of positivity and negativity, and the NRC lexicon maps words to emotions (these are emotions from Plutchik’s wheel, you can learn more about it in the <a href="https://dgarcia-eu.github.io/FoundationsOfCSS/05_TextAnalysis/051_MeasuringEmotions/Emotions.html">measuring emotions topic</a>).</p>
 <p>You can easily match words in texts to these lexica with tidytext. The code below takes the tokens data frame, matches words with the corresponding scores in the AFINN lexicon, and calculates a ranking of main characters in The Office by the mean sentiment score of the words they say.</p>
 <pre class="r"><code>wordsdf %&gt;% 
   inner_join(get_sentiments(&quot;afinn&quot;)) %&gt;%
@@ -834,7 +834,7 @@ text(joindf$meanvalence, joindf$sent, joindf$character)</code></pre>
 ## sample estimates:
 ##       cor 
 ## 0.7634204</code></pre>
-<p>Something about 0.75 is not so strong given that these two measurements should be very similar. There is a lot of research going on comparing sentiment analyses like these, the most important is to choose one that can be validated for your application case as you can learn in the <a href>validating sentiment analsysis exercise</a>.</p>
+<p>Something about 0.75 is not so strong given that these two measurements should be very similar. There is a lot of research going on comparing sentiment analyses like these, the most important is to choose one that can be validated for your application case as you can learn later in the exercise about evaluating sentiment analysis.</p>
 </div>
 
 
