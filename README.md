@@ -41,53 +41,57 @@ The course is organized in 13 sessions. Each session contains a practical part w
 3.2. [Old Big Data: Baby name trends](https://dgarcia-eu.github.io/FoundationsOfCSS/03_SocialTrends/033_BabyNameTrends/BabyNameTrends.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/03_SocialTrends/033_BabyNameTrends/Slides/BabyNameTrends_Slides.html)  
 3.3. [Linear regression](https://dgarcia-eu.github.io/FoundationsOfCSS/03_SocialTrends/034_LinearRegression/LinearRegression.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/03_SocialTrends/034_LinearRegression/Slides/LinearRegression_Slides.html)  
 - [Tutorial session: Data wrangling with dplyr](https://dgarcia-eu.github.io/FoundationsOfCSS/03_SocialTrends/035_dplyrTutorial/dplyr.html) -- [Tutorial resources](https://downgit.github.io/#/home?url=https://github.com/dgarcia-eu/FoundationsOfCSS/tree/master/03_SocialTrends/035_dplyrTutorial)  
-- [Week exercise: Future orientation and economic development](https://dgarcia-eu.github.io/FoundationsOfCSS/03_SocialTrends/036_FOIExercise/GDP_FOI.html) -- [Exercise resources](https://downgit.github.io/#/home?url=https://github.com/dgarcia-eu/FoundationsOfCSS/tree/master/03_SocialTrends/036_FOIExercise) 
+- [Exercise start: Future orientation and economic development](https://dgarcia-eu.github.io/FoundationsOfCSS/03_SocialTrends/036_FOIExercise/GDP_FOI.html) -- [Exercise resources](https://downgit.github.io/#/home?url=https://github.com/dgarcia-eu/FoundationsOfCSS/tree/master/03_SocialTrends/036_FOIExercise) 
 
 (4.11.2021: No class due to illness)
 
 4. **Social Impact** (11.11.2021)  
 4.1. [Social Impact Theory](https://dgarcia-eu.github.io/FoundationsOfCSS/04_SocialImpact/041_SocialImpactTheory/SIT.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/04_SocialImpact/041_SocialImpactTheory/Slides/SIT_Slides.html)   
 4.2. [Online Social Influence](https://dgarcia-eu.github.io/FoundationsOfCSS/04_SocialImpact/042_OnlineInfluence/OnlineInfluence.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/04_SocialImpact/042_OnlineInfluence/Slides/OnlineInfluence_Slides.html)  
-4.3. [Bootstrapping](https://dgarcia-eu.github.io/FoundationsOfCSS/04_SocialImpact/043_Bootstrapping/Bootstrapping.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/04_SocialImpact/043_Bootstrapping/Slides/Bootstrapping_Slides.html)  
-- [Week exercise: The Twitter API in R](https://dgarcia-eu.github.io/FoundationsOfCSS/04_SocialImpact/044_TwitterAPIExercise/TwitterAPI.html) -- [Exercise resources](https://downgit.github.io/#/home?url=https://github.com/dgarcia-eu/FoundationsOfCSS/tree/master/04_SocialImpact/044_TwitterAPIExercise)   
+4.3. [Bootstrapping](https://dgarcia-eu.github.io/FoundationsOfCSS/04_SocialImpact/043_Bootstrapping/Bootstrapping.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/04_SocialImpact/043_Bootstrapping/Slides/Bootstrapping_Slides.html)
+- Solution session: Future orientation and economic development
+- [Exercise start: The Twitter API in R](https://dgarcia-eu.github.io/FoundationsOfCSS/04_SocialImpact/044_TwitterAPIExercise/TwitterAPI.html) -- [Exercise resources](https://downgit.github.io/#/home?url=https://github.com/dgarcia-eu/FoundationsOfCSS/tree/master/04_SocialImpact/044_TwitterAPIExercise)   
 (For guidance, you can check the [rtweet tutorial](https://dgarcia-eu.github.io/FoundationsOfCSS/04_SocialImpact/046_rtweet/rtweet.html) and [its code](https://downgit.github.io/#/home?url=https://github.com/dgarcia-eu/FoundationsOfCSS/tree/master/04_SocialImpact/046_rtweet))
 
 5. **Social Media Text Analysis** (18.11.2021)  
 5.1. [Measuring emotions](https://dgarcia-eu.github.io/FoundationsOfCSS/05_TextAnalysis/051_MeasuringEmotions/Emotions.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/05_TextAnalysis/051_MeasuringEmotions/Slides/Emotions_Slides.html)  
 5.2. [Unsupervised sentiment analysis](https://dgarcia-eu.github.io/FoundationsOfCSS/05_TextAnalysis/052_UnsupervisedSentimentAnalysis/UnsupervisedSentimentAnalysis.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/05_TextAnalysis/052_UnsupervisedSentimentAnalysis/Slides/UnsupervisedSentimentAnalysis_Slides.html)    
 5.3. [Emotions in pagers after 9/11](https://dgarcia-eu.github.io/FoundationsOfCSS/05_TextAnalysis/053_PagerEmotions/PagerEmotions.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/05_TextAnalysis/053_PagerEmotions/Slides/PagerEmotions_Slides.html)    
-- [Week exercise: Division of impact on Twitter](https://dgarcia-eu.github.io/FoundationsOfCSS/04_SocialImpact/045_SITTwitter/SIT_Twitter.html) -- [Exercise resources](https://downgit.github.io/#/home?url=https://github.com/dgarcia-eu/FoundationsOfCSS/tree/master/04_SocialImpact/045_SITTwitter) 
+- Solution session: Twitter API in R exercise
+- [Exercise start: Division of impact on Twitter](https://dgarcia-eu.github.io/FoundationsOfCSS/04_SocialImpact/045_SITTwitter/SIT_Twitter.html) -- [Exercise resources](https://downgit.github.io/#/home?url=https://github.com/dgarcia-eu/FoundationsOfCSS/tree/master/04_SocialImpact/045_SITTwitter) 
 
 
 6. **Supervised Sentiment Analysis** (25.11.2021)  
-6.1. Evaluating sentiment analysis  
+6.1. The semantic differential  
 6.2. Supervised sentiment analysis  
-6.3. Sentiment in social media  
-- Week exercise: Running unsupervised sentiment analysis in R
+6.3. Sentiment analysis applications  
+- Tutorial: Running unsupervised sentiment analysis in R
 
 7. **Social network analysis** (2.12.2021)  
 7.1. Introduction to social networks  
 7.2. The Friendship paradox  
 7.3. Social media data bias  
-- Week exercise: Evaluating sentiment analysis methods
+- Solution session:  Division of impact on Twitter
+- Exercise start: Evaluating sentiment analysis methods
 
 8. **Centrality and social resilience** (9.12.2021)  
 8.1. Centrality and importance  
 9.2. Social resilience  
 9.3. Coreness centrality  
-- Week exercise: Handling network data in R
+- Tutorial: Handling network data in R
 
 10. **Online social network structures** (16.12.2021)  
 10.1. Structural holes and communities  
 10.2. Assortativity  
 10.3. Permutation tests   
-- Week exercise: Swiss politician data on Twitter  
+- Solution session: Evaluating sentiment analysis methods
+- Exercise start: Swiss politician data on Twitter  
 
 11. **Societal issues**  (13.1.2022)  
 11.1 Privacy in the digital society  
 11.2 Personalization and discrimination  
 11.3 Manipulation  
-- Solution session for last exercise and project feedback
+- Solution session: Swiss politician data on Twitter  
 
 12. **Ethical and scientific issues** (20.1.2022)  
 12.1 The ethics of social media research  
@@ -101,8 +105,8 @@ The course is organized in 13 sessions. Each session contains a practical part w
 ## Where to access materials
 
 - Handouts, codes, and data can be found on the [Github repository of the course](https://github.com/dgarcia-eu/FoundationsOfCSS).
-- Students at TU Graz can access the [course at Teach Center]() to get additional information, watch videos, and to participate in the forums and quizzes.
+- Students at TU Graz can access the [course at Teach Center](https://tc.tugraz.at/main/course/view.php?id=4072) to get additional information, watch videos, and to participate in the forums and quizzes.
 
 ## Course grading
 
-The assessment for the course is based on the final group research project (max. 4 students). The project grade is a combination of the presentation (50%) and the written report on the project (50%). Extra points (max 20%)  can be achieved by delivering two optional exercise solutions: "Division of impact on Twitter" (**new deadline: 24.11.2021**) and "Assortativity among Swiss politicians on Twitter" (deadline 12.1.2022).
+The assessment for the course is based on the final group research project (max. 4 students). The project grade is a combination of the presentation (50%) and the written report on the project (50%). Extra points (max 20%)  can be achieved by delivering two optional exercise solutions: "Division of impact on Twitter" (**new deadline: 1.12.2021**) and "Assortativity among Swiss politicians on Twitter" (deadline 12.1.2022).
