@@ -62,10 +62,10 @@ The course is organized in 13 sessions. Each session contains a practical part w
 
 
 6. **Supervised Sentiment Analysis** (25.11.2021)  
-6.1. The semantic differential  
-6.2. Supervised sentiment analysis  
-6.3. Sentiment analysis applications  
-- Tutorial: Running unsupervised sentiment analysis in R
+6.1. [The semantic differential](https://dgarcia-eu.github.io/FoundationsOfCSS/06_SentimentAnalysis/061_SemanticDifferential/SemanticDifferential.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/06_SentimentAnalysis/061_SemanticDifferential/Slides/SemanticDifferential_Slides.html)  
+6.2. [Supervised sentiment analysis](https://dgarcia-eu.github.io/FoundationsOfCSS/06_SentimentAnalysis/062_SupervisedSentimentAnalysis/SupervisedSentimentAnalysis.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/06_SentimentAnalysis/062_SupervisedSentimentAnalysis/Slides/SupervisedSentimentAnalysis_Slides.html)  
+6.3. [Sentiment analysis applications](https://dgarcia-eu.github.io/FoundationsOfCSS/06_SentimentAnalysis/063_SentimentAnalysisApplications/Slides/SentimentApplications_Slides.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/06_SentimentAnalysis/063_SentimentAnalysisApplications/Slides/SentimentApplications_Slides.html)  
+- [Tutorial: Running unsupervised sentiment analysis in R](https://dgarcia-eu.github.io/FoundationsOfCSS/06_SentimentAnalysis/064_UnsupervisedToolsR/UnsupervisedToolsR.html) -- [Tutorial resources](https://downgit.github.io/#/home?url=https://github.com/dgarcia-eu/FoundationsOfCSS/tree/master/06_SentimentAnalysis/064_UnsupervisedToolsR)
 
 7. **Social network analysis** (2.12.2021)  
 7.1. Introduction to social networks  
