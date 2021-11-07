@@ -1,3 +1,0 @@
-https://dgarcia-eu.github.io/FoundationsOfCSS/01_Introduction/011_ComputationalSocialSystems/Slides/ComputationalSocialSystems_Slides.html
-https://dgarcia-eu.github.io/FoundationsOfCSS/01_Introduction/012_SocialDataScience/Slides/Introduction_Slides.html
-https://dgarcia-eu.github.io/FoundationsOfCSS/01_Introduction/014_GoogleFluTrends/Slides/GoogleFluTrends_Slides.html 
