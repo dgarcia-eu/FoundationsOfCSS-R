@@ -142,3 +142,11 @@ hist(results$t) # plot histogram of the measured means over the boostrap samples
   - Bootstrapping as simulating the sampling process
   - boot() to speed up
 
+---
+<br>
+<br>
+# Please provide feedback!
+
+# http://fbr.io/FCSS4
+
+# Break until 16:00
