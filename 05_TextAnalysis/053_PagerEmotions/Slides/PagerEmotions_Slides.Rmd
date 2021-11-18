@@ -1,6 +1,5 @@
 ---
 title: "Emotions in pagers after 9/11"
-subtitle: "A Social Data Science story"
 author: "David Garcia <br><br> *TU Graz*"
 date: "Foundations of Computational Social Systems"
 output:

@@ -1,5 +1,5 @@
 ---
-title: "SDS Story: Emotions in pagers after 9/11"
+title: "Emotions in pagers after 9/11"
 author: "David Garcia, 2021"
 output: html_document
 ---
