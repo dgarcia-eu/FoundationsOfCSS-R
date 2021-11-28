@@ -43,8 +43,6 @@ The course is organized in 13 sessions. Each session contains a practical part w
 - [Tutorial session: Data wrangling with dplyr](https://dgarcia-eu.github.io/FoundationsOfCSS/03_SocialTrends/035_dplyrTutorial/dplyr.html) -- [Tutorial resources](https://downgit.github.io/#/home?url=https://github.com/dgarcia-eu/FoundationsOfCSS/tree/master/03_SocialTrends/035_dplyrTutorial)  
 - [Exercise start: Future orientation and economic development](https://dgarcia-eu.github.io/FoundationsOfCSS/03_SocialTrends/036_FOIExercise/GDP_FOI.html) -- [Exercise resources](https://downgit.github.io/#/home?url=https://github.com/dgarcia-eu/FoundationsOfCSS/tree/master/03_SocialTrends/036_FOIExercise) 
 
-(4.11.2021: No class due to illness)
-
 4. **Social Impact** (11.11.2021)  
 4.1. [Social Impact Theory](https://dgarcia-eu.github.io/FoundationsOfCSS/04_SocialImpact/041_SocialImpactTheory/SIT.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/04_SocialImpact/041_SocialImpactTheory/Slides/SIT_Slides.html)   
 4.2. [Online Social Influence](https://dgarcia-eu.github.io/FoundationsOfCSS/04_SocialImpact/042_OnlineInfluence/OnlineInfluence.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/04_SocialImpact/042_OnlineInfluence/Slides/OnlineInfluence_Slides.html)  
@@ -68,11 +66,11 @@ The course is organized in 13 sessions. Each session contains a practical part w
 - [Tutorial: Running unsupervised sentiment analysis in R](https://dgarcia-eu.github.io/FoundationsOfCSS/06_SentimentAnalysis/064_UnsupervisedToolsR/UnsupervisedToolsR.html) -- [Tutorial resources](https://downgit.github.io/#/home?url=https://github.com/dgarcia-eu/FoundationsOfCSS/tree/master/06_SentimentAnalysis/064_UnsupervisedToolsR)
 
 7. **Social network analysis** (2.12.2021)  
-7.1. Introduction to social networks  
-7.2. The Friendship paradox  
-7.3. Social media data bias  
+7.1. [Introduction to social networks](https://dgarcia-eu.github.io/FoundationsOfCSS/07_SNA/071_SNAIntro/SNAIntro.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/07_SNA/071_SNAIntro/Slides/SNAIntro_Slides.html)  
+7.2. [The Friendship paradox](https://dgarcia-eu.github.io/FoundationsOfCSS/07_SNA/072_FriendshipParadox/FriendshipParadox.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/07_SNA/072_FriendshipParadox/Slides/FriendshipParadox_Slides.html)    
+7.3. [Sampling bias on Twitter](https://dgarcia-eu.github.io/FoundationsOfCSS//07_SNA/073_TwitterOpinions/TwitterOpinions.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/07_SNA/073_TwitterOpinions/Slides/TwitterOpinions_Slides.html)    
 - Solution session:  Division of impact on Twitter
-- Exercise start: Evaluating sentiment analysis methods
+- [Exercise start: Evaluating sentiment analysis methods](https://dgarcia-eu.github.io/FoundationsOfCSS/06_SentimentAnalysis/065_SentimentEvaluation/SentimentEvaluation.html) -- [[Exercise resources]](https://downgit.github.io/#/home?url=https://github.com/dgarcia-eu/FoundationsOfCSS/tree/master/06_SentimentAnalysis/065_SentimentEvaluation)  
 
 8. **Centrality and social resilience** (9.12.2021)  
 8.1. Centrality and importance  
