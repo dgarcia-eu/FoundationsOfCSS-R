@@ -68,37 +68,36 @@ The course is organized in 13 sessions. Each session contains a practical part w
 7. **Social network analysis** (2.12.2021)  
 7.1. [Introduction to social networks](https://dgarcia-eu.github.io/FoundationsOfCSS/07_SNA/071_SNAIntro/SNAIntro.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/07_SNA/071_SNAIntro/Slides/SNAIntro_Slides.html)  
 7.2. [The Friendship paradox](https://dgarcia-eu.github.io/FoundationsOfCSS/07_SNA/072_FriendshipParadox/FriendshipParadox.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/07_SNA/072_FriendshipParadox/Slides/FriendshipParadox_Slides.html)    
-7.3. [Sampling bias on Twitter](https://dgarcia-eu.github.io/FoundationsOfCSS//07_SNA/073_TwitterOpinions/TwitterOpinions.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/07_SNA/073_TwitterOpinions/Slides/TwitterOpinions_Slides.html)    
+7.3. [Sampling bias on Twitter](https://dgarcia-eu.github.io/FoundationsOfCSS/07_SNA/073_TwitterOpinions/TwitterOpinions.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/07_SNA/073_TwitterOpinions/Slides/TwitterOpinions_Slides.html)    
 - Solution session:  Division of impact on Twitter
 - [Exercise start: Evaluating sentiment analysis methods](https://dgarcia-eu.github.io/FoundationsOfCSS/06_SentimentAnalysis/065_SentimentEvaluation/SentimentEvaluation.html) -- [[Exercise resources]](https://downgit.github.io/#/home?url=https://github.com/dgarcia-eu/FoundationsOfCSS/tree/master/06_SentimentAnalysis/065_SentimentEvaluation)  
 
 8. **Centrality and social resilience** (9.12.2021)  
-8.1. Centrality and importance  
-9.2. Social resilience  
-9.3. Coreness centrality  
-- Tutorial: Handling network data in R
+8.1. [Centrality and importance](https://dgarcia-eu.github.io/FoundationsOfCSS/08_Centrality/081_Centrality/Centrality.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/08_Centrality/081_Centrality/Slides/Centrality_Slides.html)   
+8.2. [The death of online social networks](https://dgarcia-eu.github.io/FoundationsOfCSS/08_Centrality/082_SocialNetworkDeath/SocialNetworkDeath.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/08_Centrality/082_SocialNetworkDeath/Slides/SocialNetworkDeath_Slides.html)  
+8.3. [Social resilience and coreness centrality](https://dgarcia-eu.github.io/FoundationsOfCSS/08_Centrality/083_SocialResilience/SocialResilience.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/08_Centrality/083_SocialResilience/Slides/SocialResilience_Slides.html)  
+- [Tutorial: Handling network data in R](https://dgarcia-eu.github.io/FoundationsOfCSS/08_Centrality/084_Tidygraph/tidygraph.html) -- [[Tutorial Resources]](https://downgit.github.io/#/home?url=https://github.com/dgarcia-eu/FoundationsOfCSS/tree/master/08_Centrality/084_Tidygraph)
 
-10. **Online social network structures** (16.12.2021)  
-10.1. Structural holes and communities  
-10.2. Assortativity  
-10.3. Permutation tests   
+9. **Online social network structures** (16.12.2021)  
+9.1. Structural holes and communities  
+9.2. Assortativity  
+9.3. Permutation tests   
 - Solution session: Evaluating sentiment analysis methods
 - Exercise start: Swiss politician data on Twitter  
 
-11. **Societal issues**  (13.1.2022)  
-11.1 Privacy in the digital society  
-11.2 Personalization and discrimination  
-11.3 Manipulation  
+10. **Societal issues**  (13.1.2022)  
+10.1 Privacy in the digital society  
+10.2 Personalization and discrimination  
+10.3 Manipulation  
 - Solution session: Swiss politician data on Twitter  
 
-12. **Ethical and scientific issues** (20.1.2022)  
-12.1 The ethics of social media research  
-12.2 Representation in digital traces  
-12.3 Measurement issues  
+11. **Ethical and scientific issues** (20.1.2022)  
+11.1 The ethics of social media research  
+11.2 Representation in digital traces  
+11.3 Measurement issues  
 - Project feedback
 
-13. **Project presentations** (27.1.2022)  
-
+12. **Project presentations** (27.1.2022)  
 
 ## Where to access materials
 
