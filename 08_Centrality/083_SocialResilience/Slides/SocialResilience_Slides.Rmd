@@ -131,3 +131,25 @@ The cost to benefit ratio $c/b$ defines a critical value of the degree $K$, belo
 
 .center[![](resilience.png)]
 
+---
+
+# Summary
+
+- Measuring importance in social network: definitions matter!
+  - if number of connections: degree
+  - if brokering paths: betweenness
+  - if reaching others: closeness
+  
+  
+- Dunbar's number as a limit to degree in social networks
+
+
+- The story of disappeared social networks
+  - The problem with Google trends data
+  - Temporal validity and predictions
+  
+  
+- Social resilience
+  - Modeling user decisions depending on benefits and costs
+  - Coreness centrality to measure resilience
+
