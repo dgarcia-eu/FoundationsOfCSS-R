@@ -416,7 +416,6 @@ summary {
 </div>
 
 
-<p>You can find the markdown files and data for this exercise in the corresponding <a href="https://github.com/dgarcia-eu/SocialDataScience/tree/master/5_SocialNetworkPhenomena/058_PoliticianAssortativity">Github folder</a>.</p>
 <div id="tasks" class="section level2">
 <h2>Tasks:</h2>
 <ol style="list-style-type: decimal">
@@ -429,7 +428,7 @@ summary {
 </div>
 <div id="construct-the-timelines-of-twitter-users" class="section level1">
 <h1>1. Construct the timelines of Twitter users</h1>
-<p>Remember what we did in the exercise about <a href="https://dgarcia-eu.github.io/SocialDataScience/4_SNA/048_PoliticiansNetwork/PoliticiansNetwork.html">retrieving Twitter network data</a>. First connect to the Twitter API using your credentials as in previous exercises.</p>
+<p>First connect to the Twitter API using your credentials as in previous exercises.</p>
 <pre class="r"><code>library(dplyr)
 library(tidygraph)
 library(rtweet)
@@ -443,7 +442,7 @@ library(ggraph)</code></pre>
 </div>
 <div id="build-social-network-of-retweets" class="section level1">
 <h1>2. Build social network of retweets</h1>
-<p>If you had problems gathering data in previous steps, you can load the example datasets provided here (timelines.RData and users.Rdata). After that, filter the tweets in the timeline such that the user id that is being retweeted is one of the user ids in the user list (the command %in% is useful here or you can use one of the join functions of dplyr):</p>
+<p>Filter the tweets in the timeline such that the user id that is being retweeted is one of the user ids in the user list (the command %in% is useful here or you can use one of the join functions of dplyr):</p>
 <pre class="r"><code>#Your code here</code></pre>
 <p>To build a graph, we have to prepare two data frames. First, construct a vertices data frame with the user ids, screen_names, and the <strong>political party label</strong> of the vertices. Then build a dataframe for the edges with an edge between any pair of two users that exchanged at least one retweet with each other (regardless of the direction). Think that this will be an undirected network connecting politicians that share the same information on Twitter:</p>
 <pre class="r"><code>#Your code here</code></pre>

@@ -4,8 +4,6 @@ author: "David Garcia"
 output: html_document
 ---
 
-You can find the markdown files and data for this exercise in the corresponding [Github folder](https://github.com/dgarcia-eu/SocialDataScience/tree/master/5_SocialNetworkPhenomena/058_PoliticianAssortativity).
-
 ## Tasks:
 
 1. Construct the timelines of Twitter users
@@ -20,7 +18,7 @@ You can find the markdown files and data for this exercise in the corresponding 
 
 # 1. Construct the timelines of Twitter users
 
-Remember what we did in the exercise about [retrieving Twitter network data](https://dgarcia-eu.github.io/SocialDataScience/4_SNA/048_PoliticiansNetwork/PoliticiansNetwork.html). First connect to the Twitter API using your credentials as in previous exercises.
+First connect to the Twitter API using your credentials as in previous exercises.
 ```{r, message=FALSE}
 library(dplyr)
 library(tidygraph)
@@ -45,7 +43,7 @@ Now retrieve the last 200 tweets of each user (remember the check=FALSE paramete
 
 # 2. Build social network of retweets
 
-If you had problems gathering data in previous steps, you can load the example datasets provided here (timelines.RData and users.Rdata). After that, filter the tweets in the timeline such that the user id that is being retweeted is one of the user ids in the user list (the command %in% is useful here or you can use one of the join functions of dplyr):
+Filter the tweets in the timeline such that the user id that is being retweeted is one of the user ids in the user list (the command %in% is useful here or you can use one of the join functions of dplyr):
 
 ```{r}
 #Your code here
