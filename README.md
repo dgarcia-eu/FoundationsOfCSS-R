@@ -79,11 +79,11 @@ The course is organized in 13 sessions. Each session contains a practical part w
 - [Tutorial: Handling network data in R](https://dgarcia-eu.github.io/FoundationsOfCSS/08_Centrality/084_Tidygraph/tidygraph.html) -- [[Tutorial Resources]](https://downgit.github.io/#/home?url=https://github.com/dgarcia-eu/FoundationsOfCSS/tree/master/08_Centrality/084_Tidygraph)
 
 9. **Online social network structures** (16.12.2021)  
-9.1. Structural holes and communities  
-9.2. Assortativity  
-9.3. Permutation tests   
+9.1. [Structural holes and communities](https://dgarcia-eu.github.io/FoundationsOfCSS/09_SocialNetworkStructures/091_StructuralHoles/StructuralHoles.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/09_SocialNetworkStructures/091_StructuralHoles/Slides/StructuralHoles_Slides.html)    
+9.2. [Assortativity](https://dgarcia-eu.github.io/FoundationsOfCSS/09_SocialNetworkStructures/092_Assortativity/Assortativity.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS//09_SocialNetworkStructures/092_Assortativity/Slides/Assortativity_Slides.html)   
+9.3. [Permutation tests](https://dgarcia-eu.github.io/FoundationsOfCSS/09_SocialNetworkStructures/093_PermutationTests/PermutationTests.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/09_SocialNetworkStructures/093_PermutationTests/PermutationTests.html)    
 - Solution session: Evaluating sentiment analysis methods
-- Exercise start: Swiss politician data on Twitter  
+- [Exercise start: Swiss politician data on Twitter](https://dgarcia-eu.github.io/FoundationsOfCSS/09_SocialNetworkStructures/094_PoliticianAssortativity/PoliticianAssortativity.html) -- [[Exercise Resources]](https://downgit.github.io/#/home?url=https://github.com/dgarcia-eu/FoundationsOfCSS/tree/master/09_SocialNetworkStructures/094_PoliticianAssortativity)  
 
 10. **Societal issues**  (13.1.2022)  
 10.1 Privacy in the digital society  
