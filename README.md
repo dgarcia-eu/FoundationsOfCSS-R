@@ -81,7 +81,7 @@ The course is organized in 13 sessions. Each session contains a practical part w
 9. **Online social network structures** (16.12.2021)  
 9.1. [Structural holes and communities](https://dgarcia-eu.github.io/FoundationsOfCSS/09_SocialNetworkStructures/091_StructuralHoles/StructuralHoles.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/09_SocialNetworkStructures/091_StructuralHoles/Slides/StructuralHoles_Slides.html)    
 9.2. [Assortativity](https://dgarcia-eu.github.io/FoundationsOfCSS/09_SocialNetworkStructures/092_Assortativity/Assortativity.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS//09_SocialNetworkStructures/092_Assortativity/Slides/Assortativity_Slides.html)   
-9.3. [Permutation tests](https://dgarcia-eu.github.io/FoundationsOfCSS/09_SocialNetworkStructures/093_PermutationTests/PermutationTests.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/09_SocialNetworkStructures/093_PermutationTests/PermutationTests.html)    
+9.3. [Permutation tests](https://dgarcia-eu.github.io/FoundationsOfCSS/09_SocialNetworkStructures/093_PermutationTests/PermutationTests.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/09_SocialNetworkStructures/093_PermutationTests/Slides/PermutationTests_Slides.html)    
 - Solution session: Evaluating sentiment analysis methods
 - [Exercise start: Swiss politician data on Twitter](https://dgarcia-eu.github.io/FoundationsOfCSS/09_SocialNetworkStructures/094_PoliticianAssortativity/PoliticianAssortativity.html) -- [[Exercise Resources]](https://downgit.github.io/#/home?url=https://github.com/dgarcia-eu/FoundationsOfCSS/tree/master/09_SocialNetworkStructures/094_PoliticianAssortativity)  
 
