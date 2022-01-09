@@ -87,8 +87,8 @@ The course is organized in 13 sessions. Each session contains a practical part w
 
 10. **Societal issues**  (13.1.2022)  
 10.1 Privacy in the digital society  
-10.2 Personalization and discrimination  
-10.3 Manipulation  
+10.2 Misinformation and information disease  
+10.3 Polarization and digital technologies  
 - Solution session: Swiss politician data on Twitter  
 
 11. **Ethical and scientific issues** (20.1.2022)  
