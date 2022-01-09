@@ -87,9 +87,11 @@ The course is organized in 13 sessions. Each session contains a practical part w
 
 10. **Societal issues**  (13.1.2022)  
 10.1 Privacy in the digital society  
-10.2 Misinformation and information disease  
+10.2 Misinformation and information disorder -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/10_SocietalIssues/102_Misinformation/Slides/Misinformation_Slides.html
+)  
 10.3 Polarization and digital technologies  
 - Solution session: Swiss politician data on Twitter  
+
 
 11. **Ethical and scientific issues** (20.1.2022)  
 11.1 The ethics of social media research  

@@ -1,5 +1,5 @@
 ---
-title: "Misinformation and Information Disease"
+title: "Misinformation and Information Disorder"
 author: "David Garcia <br><br> *TU Graz*"
 date: "Foundations of Computational Social Systems"
 output:
