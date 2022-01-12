@@ -86,7 +86,7 @@ The course is organized in 13 sessions. Each session contains a practical part w
 - [Exercise start: Swiss politician data on Twitter](https://dgarcia-eu.github.io/FoundationsOfCSS/09_SocialNetworkStructures/094_PoliticianAssortativity/PoliticianAssortativity.html) -- [[Exercise Resources]](https://downgit.github.io/#/home?url=https://github.com/dgarcia-eu/FoundationsOfCSS/tree/master/09_SocialNetworkStructures/094_PoliticianAssortativity)  
 
 10. **Societal issues**  (13.1.2022)  
-10.1 [Privacy in the digital society](10_SocietalIssues/101_Privacy/Privacy.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/10_SocietalIssues/101_Privacy/Slides/Privacy_Slides.html)    
+10.1 [Privacy in the digital society](https://dgarcia-eu.github.io/FoundationsOfCSS/10_SocietalIssues/101_Privacy/Privacy.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/10_SocietalIssues/101_Privacy/Slides/Privacy_Slides.html)    
 10.2 [Misinformation and information disorder](https://dgarcia-eu.github.io/FoundationsOfCSS/10_SocietalIssues/102_Misinformation/Misinformation.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/10_SocietalIssues/102_Misinformation/Slides/Misinformation_Slides.html)  
 10.3 [Polarization and digital technologies](https://dgarcia-eu.github.io/FoundationsOfCSS/10_SocietalIssues/103_Polarization/Polarization.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/10_SocietalIssues/103_Polarization/Slides/Polarization_Slides.html)   
 - Solution session: Swiss politician data on Twitter  
