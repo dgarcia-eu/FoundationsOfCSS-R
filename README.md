@@ -94,8 +94,8 @@ The course is organized in 13 sessions. Each session contains a practical part w
 
 11. **Ethical and scientific issues** (20.1.2022)  
 11.1 [The ethics of social media research](https://dgarcia-eu.github.io/FoundationsOfCSS/11_EthicalAndScientificIssues/111_Ethics/Ethics.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/11_EthicalAndScientificIssues/111_Ethics/Slides/Ethics_Slides.html)  
-11.2 Representation in digital traces  
-11.3 Measurement issues  
+11.2 |Representation in digital traces](https://dgarcia-eu.github.io/FoundationsOfCSS/11_EthicalAndScientificIssues/112_RepresentationInDigitalTraces/RepresentationInDigitalTraces.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/11_EthicalAndScientificIssues/112_RepresentationInDigitalTraces/Slides/index.html)
+11.3 [Measurement issues](https://dgarcia-eu.github.io/FoundationsOfCSS/11_EthicalAndScientificIssues/113_MeasurementIssues/MeasurementIssues.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/11_EthicalAndScientificIssues/113_MeasurementIssues/Slides/index.html)
 - Project feedback
 
 12. **Project presentations** (27.1.2022)  
