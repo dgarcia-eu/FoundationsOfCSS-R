@@ -45,7 +45,7 @@ All members of the group have to participate in their presentation (for example 
 
 #### 4. Submit the final report
 
-Send a final report as a PDF document (max. 6 pages, min. font size 11pt) through Teach Center (link to be announced).
+Send a final report as a PDF document (max. 6 pages, min. font size 11pt) via email.
 References do not count towards this 6-page limit. Projects can contain a link to a Github repository including the R code to produce results, datasets if they can be shared, and additional figures or tables that can be referenced from the project report.
 
 Project reports should follow this structure:
